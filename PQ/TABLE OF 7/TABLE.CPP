@@ -7,6 +7,6 @@ int main()
   int storage;
   for (int i = 1; i < n + 1; i++)
   {
-    cout << num << "X" << i << " = " << 7 * i << endl;
+    cout << num << "*" << i << " = " << 7 * i << endl;
   }
 }
