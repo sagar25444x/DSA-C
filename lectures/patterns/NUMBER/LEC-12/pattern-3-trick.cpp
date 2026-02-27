@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+  int n;
+  cin >> n;
+  for (int i = 1; i <= n; i++)
+  {
+    for (int j = n; j >= 1; j--)//column ulta cahl rha vide record
+    {
+      if (i == j)
+      {
+        cout<<"* ";
+      }
+      else{
+        cout<<j<<"  ";
+      }
+    }
+    cout<<endl;
+  }
+
+  return 0;
+}
