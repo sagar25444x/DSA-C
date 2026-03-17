@@ -16,11 +16,11 @@ int main()
   int ans = a[0];
   for (int i = 0; i < n; i++)
   {
-    if (ans < a[i])
+    if (ans > a[i])
     {
       ans = a[i];
     }
   }
-  cout << "THE MAX ELEMENT OF ARRAY IS : " << ans << endl;
+  cout << "THE MIN ELEMENT OF ARRAY IS : " << ans << endl;
   return 0;
 }
