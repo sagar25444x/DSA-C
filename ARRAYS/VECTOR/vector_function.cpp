@@ -8,12 +8,26 @@ int main()
   // for sorting
   vector<int> a = {1, 4, 3, 2, 5, 6, 9, 7, 8, 10};
   sort(a.begin(), a.end());
-  cout << "sorted order" << endl;
+  cout << "sorted order ascending" << endl;
   for (int i = 0; i < a.size(); i++)
   {
     cout << a[i] << " ";
   }
   cout << endl;
+
+
+
+
+  // sort in descending
+  cout << "sorted order descending" << endl;
+  sort(a.begin(), a.end(), greater<int>());
+  for (int i = 0; i < a.size(); i++)
+  {
+    cout << a[i] << " ";
+  }
+  cout << endl;
+
+
 
   // for reverse
   vector<int> b = {1, 2, 3, 4, 5};
@@ -23,5 +37,8 @@ int main()
   {
     cout << b[i] << " ";
   }
+
+
+
   return 0;
 }
