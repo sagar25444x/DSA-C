@@ -23,14 +23,14 @@ int main()
   {
     if (i % 2 == 0)
     {
-      for (int j = 0; j < row; j++) // traversing row from rihgh to left
+      for (int j = 0; j < row; j++) // traversing col from rihgh to left
       {
         cout << mat[i][j] << "  ";
       }
     }
     else
     {
-      for (int j = row - 1; j >= 0; j--) // traversing left to right
+      for (int j = row - 1; j >= 0; j--) // traversing col left to right
       {
         cout << mat[i][j] << "  ";
       }
