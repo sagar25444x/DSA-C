@@ -18,7 +18,7 @@ int main()
     }
   }
 
-  // wave column print krna
+  // wave row print krna
   for (int j = 0; j < col; j++)
   {
     if (j % 2 == 0)
