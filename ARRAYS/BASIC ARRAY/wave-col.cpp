@@ -18,19 +18,19 @@ int main()
     }
   }
 
-  // wave column print krna
-  for (int j = 0; j < col; j++)
+  // wave row print krna
+  for (int i = 0; i < col; i++)
   {
-    if (j % 2 == 0)
+    if (i % 2 == 0)
     {
-      for (int i = 0; i < row; i++) // traversing row from top to bottom
+      for (int j = 0; j < row; j++) // traversing row from top to bottom
       {
         cout << mat[i][j] << "  ";
       }
     }
     else
     {
-      for (int i = row - 1; i >= 0; i--) // traversing bottom to up
+      for (int j = row - 1; j >= 0; j--) // traversing bottom to up
       {
         cout << mat[i][j] << "  ";
       }
